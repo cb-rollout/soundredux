@@ -1,6 +1,6 @@
 ```
 npm install
 npm run start
-open http://localhost:8080
+open http://0.0.0.0:8080
 ```
 
