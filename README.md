@@ -12,5 +12,6 @@ open http://0.0.0.0:8080
 * your feature flag app-key ist required in `soundredux/client/src/constants/Flags.js` 
 * in `package.json` to know how  the SDK is configurd as a dependency `"rox-browser": "^4.9.5" `
 * see https://github.com/cb-rollout/rollout-casc-soundredux  for casc
+* `soundredux/client/src/store/UserRepo.js` to change User email to demonstrate TargetGroups
 
 
