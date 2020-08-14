@@ -21,12 +21,13 @@ async function initRollout() {
   Rox.register('', Flags);
 
   // Setup the Rollout key
-  await Rox.setup('5f351067562872a4cb085cc8', options);
 
+  await Rox.setup('5f36579640106f6a02025859', options);
+  console.log("Rox init");
 }
 
 initRollout().then(function() {
-  console.log('Done loading Rollout');
+  console.log('Done loading Rollout 5f36579640106f6a02025859');
 });
 
 Rox.setCustomStringProperty('plan', () => UserRepo.getUser().plan);
